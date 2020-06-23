@@ -1,0 +1,217 @@
+body .kunoleps .box .dribbble, body .kunoleps .box .dribbble:hover, body .kunoleps .box .medium, body .kunoleps .box .medium:hover, body .kunoleps .box .instagram, body .kunoleps .box .instagram:hover, body .kunoleps .box .facebook, body .kunoleps .box .facebook:hover, body .kunoleps .box .linkedin, body .kunoleps .box .linkedin:hover, body .kunoleps .box .pinterest, body .kunoleps .box .pinterest:hover {
+  width: 140px;
+  height: 140px;
+  border-radius: 6px;
+  -webkit-transition: .4s ease-in-out;
+  transition: .4s ease-in-out;
+}
+
+body .kunoleps .box .dribbble h5, body .kunoleps .box .dribbble:hover h5, body .kunoleps .box .medium h5, body .kunoleps .box .medium:hover h5, body .kunoleps .box .instagram h5, body .kunoleps .box .instagram:hover h5, body .kunoleps .box .facebook h5, body .kunoleps .box .facebook:hover h5, body .kunoleps .box .linkedin h5, body .kunoleps .box .linkedin:hover h5, body .kunoleps .box .pinterest h5, body .kunoleps .box .pinterest:hover h5 {
+  font-size: 18px;
+  margin: 10px 0 0 0;
+}
+
+body .kunoleps .box .dribbble p, body .kunoleps .box .dribbble:hover p, body .kunoleps .box .medium p, body .kunoleps .box .medium:hover p, body .kunoleps .box .instagram p, body .kunoleps .box .instagram:hover p, body .kunoleps .box .facebook p, body .kunoleps .box .facebook:hover p, body .kunoleps .box .linkedin p, body .kunoleps .box .linkedin:hover p, body .kunoleps .box .pinterest p, body .kunoleps .box .pinterest:hover p {
+  font-size: 16px;
+  margin: 0;
+}
+
+body .kunoleps .box .dribbble p span, body .kunoleps .box .dribbble:hover p span, body .kunoleps .box .medium p span, body .kunoleps .box .medium:hover p span, body .kunoleps .box .instagram p span, body .kunoleps .box .instagram:hover p span, body .kunoleps .box .facebook p span, body .kunoleps .box .facebook:hover p span, body .kunoleps .box .linkedin p span, body .kunoleps .box .linkedin:hover p span, body .kunoleps .box .pinterest p span, body .kunoleps .box .pinterest:hover p span {
+  font-size: 14px;
+  opacity: .7;
+}
+
+body .kunoleps .box .dribbble i, body .kunoleps .box .dribbble:hover i, body .kunoleps .box .medium i, body .kunoleps .box .medium:hover i, body .kunoleps .box .instagram i, body .kunoleps .box .instagram:hover i, body .kunoleps .box .facebook i, body .kunoleps .box .facebook:hover i, body .kunoleps .box .linkedin i, body .kunoleps .box .linkedin:hover i, body .kunoleps .box .pinterest i, body .kunoleps .box .pinterest:hover i {
+  font-size: 32px;
+}
+
+body .kunoleps .portfolio {
+  display: inline-block;
+  width: 200px;
+  padding: 12px 0;
+  text-align: center;
+  background-color: transparent;
+  background-color: #FE4873;
+  color: #FFF;
+  font-size: 14px;
+  border-radius: 6px;
+  -webkit-transition: .4s ease-in-out;
+  transition: .4s ease-in-out;
+}
+
+body {
+  background-color: #3D424A;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+  text-align: center;
+}
+
+body .kunoleps {
+  margin-top: 140px;
+}
+
+body .kunoleps h1 {
+  font-size: 18px;
+  color: #FFF;
+  margin-bottom: 72px;
+}
+
+body .kunoleps .portfolio {
+  margin-top: 32px;
+  margin-bottom: 16px;
+}
+
+body .kunoleps .portfolio:hover {
+  background-color: #EC2655;
+  text-decoration: none;
+}
+
+body .kunoleps .box a {
+  text-decoration: none;
+}
+
+body .kunoleps .box a:hover {
+  text-decoration: none;
+}
+
+body .kunoleps .box .dribbble {
+  background-color: rgba(228, 81, 137, 0.06);
+  color: #e45189;
+}
+
+body .kunoleps .box .dribbble:hover {
+  background-color: #e45189;
+  color: #FFF;
+}
+
+body .kunoleps .box .medium {
+  background-color: rgba(36, 33, 30, 0.06);
+  color: #24211e;
+}
+
+body .kunoleps .box .medium:hover {
+  background-color: #24211e;
+  color: #FFF;
+}
+
+body .kunoleps .box .instagram {
+  background-color: rgba(182, 80, 188, 0.06);
+  color: #b650bc;
+}
+
+body .kunoleps .box .instagram:hover {
+  background-color: #b650bc;
+  color: #FFF;
+}
+
+body .kunoleps .box .facebook {
+  background-color: rgba(60, 90, 153, 0.06);
+  color: #3c5a99;
+}
+
+body .kunoleps .box .facebook:hover {
+  background-color: #3c5a99;
+  color: #FFF;
+}
+
+body .kunoleps .box .linkedin {
+  background-color: rgba(0, 115, 177, 0.06);
+  color: #0073b1;
+}
+
+body .kunoleps .box .linkedin:hover {
+  background-color: #0073b1;
+  color: #FFF;
+}
+
+body .kunoleps .box .pinterest {
+  background-color: rgba(255, 102, 107, 0.06);
+  color: #e1666b;
+}
+
+body .kunoleps .box .pinterest:hover {
+  background-color: #e1666b;
+  color: #FFF;
+}
+
+@media (max-width: 575.98px) {
+  body .kunoleps .box .dribbble, body .kunoleps .box .dribbble:hover, body .kunoleps .box .medium, body .kunoleps .box .medium:hover, body .kunoleps .box .instagram, body .kunoleps .box .instagram:hover, body .kunoleps .box .facebook, body .kunoleps .box .facebook:hover, body .kunoleps .box .linkedin, body .kunoleps .box .linkedin:hover, body .kunoleps .box .pinterest, body .kunoleps .box .pinterest:hover {
+    width: 100%;
+    padding: 0;
+    border-radius: 6px;
+  }
+  body .kunoleps .box .dribbble h5, body .kunoleps .box .dribbble:hover h5, body .kunoleps .box .medium h5, body .kunoleps .box .medium:hover h5, body .kunoleps .box .instagram h5, body .kunoleps .box .instagram:hover h5, body .kunoleps .box .facebook h5, body .kunoleps .box .facebook:hover h5, body .kunoleps .box .linkedin h5, body .kunoleps .box .linkedin:hover h5, body .kunoleps .box .pinterest h5, body .kunoleps .box .pinterest:hover h5 {
+    font-size: 16px;
+    margin: 10px 0 0 0;
+  }
+  body .kunoleps .box .dribbble p, body .kunoleps .box .dribbble:hover p, body .kunoleps .box .medium p, body .kunoleps .box .medium:hover p, body .kunoleps .box .instagram p, body .kunoleps .box .instagram:hover p, body .kunoleps .box .facebook p, body .kunoleps .box .facebook:hover p, body .kunoleps .box .linkedin p, body .kunoleps .box .linkedin:hover p, body .kunoleps .box .pinterest p, body .kunoleps .box .pinterest:hover p {
+    font-size: 14px;
+    margin: 0;
+  }
+  body .kunoleps .box .dribbble p span, body .kunoleps .box .dribbble:hover p span, body .kunoleps .box .medium p span, body .kunoleps .box .medium:hover p span, body .kunoleps .box .instagram p span, body .kunoleps .box .instagram:hover p span, body .kunoleps .box .facebook p span, body .kunoleps .box .facebook:hover p span, body .kunoleps .box .linkedin p span, body .kunoleps .box .linkedin:hover p span, body .kunoleps .box .pinterest p span, body .kunoleps .box .pinterest:hover p span {
+    font-size: 12px;
+    opacity: .7;
+  }
+  body .kunoleps .box .dribbble i, body .kunoleps .box .dribbble:hover i, body .kunoleps .box .medium i, body .kunoleps .box .medium:hover i, body .kunoleps .box .instagram i, body .kunoleps .box .instagram:hover i, body .kunoleps .box .facebook i, body .kunoleps .box .facebook:hover i, body .kunoleps .box .linkedin i, body .kunoleps .box .linkedin:hover i, body .kunoleps .box .pinterest i, body .kunoleps .box .pinterest:hover i {
+    font-size: 24px;
+  }
+  body .kunoleps {
+    margin-top: 42px;
+  }
+  body .kunoleps h1 {
+    font-size: 18px;
+    margin-bottom: 16px;
+  }
+  body .kunoleps .col, body .kunoleps .col-4, body .kunoleps .col-md-2 {
+    padding: 6px !important;
+  }
+  body .kunoleps .box .dribbble {
+    background-color: rgba(228, 81, 137, 0.06);
+    color: #e45189;
+  }
+  body .kunoleps .box .dribbble:hover {
+    background-color: #e45189;
+    color: #FFF;
+  }
+  body .kunoleps .box .medium {
+    background-color: rgba(36, 33, 30, 0.06);
+    color: #24211e;
+  }
+  body .kunoleps .box .medium:hover {
+    background-color: #24211e;
+    color: #FFF;
+  }
+  body .kunoleps .box .instagram {
+    background-color: rgba(182, 80, 188, 0.06);
+    color: #b650bc;
+  }
+  body .kunoleps .box .instagram:hover {
+    background-color: #b650bc;
+    color: #FFF;
+  }
+  body .kunoleps .box .facebook {
+    background-color: rgba(60, 90, 153, 0.06);
+    color: #3c5a99;
+  }
+  body .kunoleps .box .facebook:hover {
+    background-color: #3c5a99;
+    color: #FFF;
+  }
+  body .kunoleps .box .linkedin {
+    background-color: rgba(0, 115, 177, 0.06);
+    color: #0073b1;
+  }
+  body .kunoleps .box .linkedin:hover {
+    background-color: #0073b1;
+    color: #FFF;
+  }
+  body .kunoleps .box .pinterest {
+    background-color: rgba(255, 102, 107, 0.06);
+    color: #e1666b;
+  }
+  body .kunoleps .box .pinterest:hover {
+    background-color: #e1666b;
+    color: #FFF;
+  }
+}
+/*# sourceMappingURL=style.css.map */

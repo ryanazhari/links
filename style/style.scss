@@ -1,0 +1,288 @@
+$bg-color-primary : #3D424A;
+$bg-color-secondary : #333645;
+$red-color-primary : #FE4873;
+$red-color-primary-hover : #EC2655;
+$red-color-transparent : rgba(254, 72, 115, 0.08);
+$text-color-primary : #FFF;
+
+// Dribbble color
+$dribbble-bg : rgba(228, 81, 137, .06);
+$dribbble-color : rgb(228, 81, 137);
+
+// Medium color
+$medium-bg : rgba(36, 33, 30, 0.06);
+$medium-color : rgb(36, 33, 30);
+
+// Instagram color
+$instagram-bg : rgba(182, 80, 188, .06);
+$instagram-color : rgb(182, 80, 188);
+
+// Facebook color
+$facebook-bg : rgba(60, 90, 153, .06);
+$facebook-color : rgb(60, 90, 153);
+
+// Linkedin color
+$linkedin-bg : rgba(0, 115, 177, .06);
+$linkedin-color : rgb(0, 115, 177);
+
+// Pinterest color
+$pinterest-bg : rgba(255, 102, 107, .06);
+$pinterest-color : rgb(225, 102, 107);
+
+// Pinterest color
+$twitter-bg : rgba(0, 172, 237, .06);
+$twitter-color : rgb(0, 172, 237);
+
+%box-kunoleps {
+    width: 140px;
+    height: 140px;
+    border-radius: 6px;
+    transition: .4s ease-in-out;
+
+    h5 {
+        font-size: 18px;
+        margin: 10px 0 0 0;
+    }
+    p {
+        font-size: 16px;
+        margin: 0;
+        span {
+            font-size: 14px;
+            opacity: .7;
+        }
+    }
+    i {
+        font-size: 32px
+    }
+}
+
+%cta {
+    display: inline-block;
+    width: 200px;
+    padding: 12px 0;
+    text-align: center;
+    background-color: transparent;
+    background-color: $red-color-primary;
+    color: $text-color-primary;
+    font-size: 14px;
+    border-radius: 6px;
+    transition: .4s ease-in-out;
+}
+
+
+body {
+    background-color: $bg-color-primary;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    text-align: center;
+
+    .kunoleps {
+        margin-top: 140px;
+
+        h1 {
+            font-size: 18px;
+            color: $text-color-primary;
+            margin-bottom: 72px;
+        }
+
+        .portfolio {
+            @extend %cta;
+            margin-top: 32px;
+            margin-bottom: 16px;
+        }
+
+        .portfolio:hover {
+            background-color: $red-color-primary-hover;
+            text-decoration: none;
+        }
+
+        .box {
+            a {
+                text-decoration: none;
+            }
+            a:hover {
+                text-decoration: none;
+            }
+
+            .dribbble {
+                @extend %box-kunoleps;
+                background-color: $dribbble-bg;
+                color: $dribbble-color;
+            }
+            .dribbble:hover {
+                @extend %box-kunoleps;
+                background-color: $dribbble-color;
+                color: $text-color-primary;
+            }
+
+            .medium {
+                @extend %box-kunoleps;
+                background-color: $medium-bg;
+                color: $medium-color;
+            }
+            .medium:hover {
+                @extend %box-kunoleps;
+                background-color: $medium-color;
+                color: $text-color-primary;
+            }
+
+            .instagram {
+                @extend %box-kunoleps;
+                background-color: $instagram-bg;
+                color: $instagram-color;
+            }
+            .instagram:hover {
+                @extend %box-kunoleps;
+                background-color: $instagram-color;
+                color: $text-color-primary;
+            }
+
+            .facebook {
+                @extend %box-kunoleps;
+                background-color: $facebook-bg;
+                color: $facebook-color;
+            }
+            .facebook:hover {
+                @extend %box-kunoleps;
+                background-color: $facebook-color;
+                color: $text-color-primary;
+            }
+
+            .linkedin {
+                @extend %box-kunoleps;
+                background-color: $linkedin-bg;
+                color: $linkedin-color;
+            }
+            .linkedin:hover {
+                @extend %box-kunoleps;
+                background-color: $linkedin-color;
+                color: $text-color-primary;
+            }
+
+            .pinterest {
+                @extend %box-kunoleps;
+                background-color: $pinterest-bg;
+                color: $pinterest-color;
+            }
+            .pinterest:hover {
+                @extend %box-kunoleps;
+                background-color: $pinterest-color;
+                color: $text-color-primary;
+            }
+        }
+    }
+}
+
+// Extra small devices (portrait phones, less than 576px)
+@media (max-width: 575.98px) {
+
+    %mobile-box-kunoleps {
+        width: 100%;
+        padding: 0;
+        border-radius: 6px;
+    
+        h5 {
+            font-size: 16px;
+            margin: 10px 0 0 0;
+        }
+        p {
+            font-size: 14px;
+            margin: 0;
+            span {
+                font-size: 12px;
+                opacity: .7;
+            }
+        }
+        i {
+            font-size: 24px
+        }
+    }
+
+    body {
+
+        .kunoleps {
+            margin-top: 42px;
+    
+            h1 {
+                font-size: 18px;
+                margin-bottom: 16px;
+            }
+
+            .col, .col-4, .col-md-2 {
+                padding: 6px !important;
+            }
+    
+            .box {
+                
+                .dribbble {
+                    @extend %mobile-box-kunoleps;
+                    background-color: $dribbble-bg;
+                    color: $dribbble-color;
+                }
+                .dribbble:hover {
+                    @extend %mobile-box-kunoleps;
+                    background-color: $dribbble-color;
+                    color: $text-color-primary;
+                }
+    
+                .medium {
+                    @extend %mobile-box-kunoleps;
+                    background-color: $medium-bg;
+                    color: $medium-color;
+                }
+                .medium:hover {
+                    @extend %mobile-box-kunoleps;
+                    background-color: $medium-color;
+                    color: $text-color-primary;
+                }
+    
+                .instagram {
+                    @extend %mobile-box-kunoleps;
+                    background-color: $instagram-bg;
+                    color: $instagram-color;
+                }
+                .instagram:hover {
+                    @extend %mobile-box-kunoleps;
+                    background-color: $instagram-color;
+                    color: $text-color-primary;
+                }
+    
+                .facebook {
+                    @extend %mobile-box-kunoleps;
+                    background-color: $facebook-bg;
+                    color: $facebook-color;
+                }
+                .facebook:hover {
+                    @extend %mobile-box-kunoleps;
+                    background-color: $facebook-color;
+                    color: $text-color-primary;
+                }
+    
+                .linkedin {
+                    @extend %mobile-box-kunoleps;
+                    background-color: $linkedin-bg;
+                    color: $linkedin-color;
+                }
+                .linkedin:hover {
+                    @extend %mobile-box-kunoleps;
+                    background-color: $linkedin-color;
+                    color: $text-color-primary;
+                }
+    
+                .pinterest {
+                    @extend %mobile-box-kunoleps;
+                    background-color: $pinterest-bg;
+                    color: $pinterest-color;
+                }
+                .pinterest:hover {
+                    @extend %mobile-box-kunoleps;
+                    background-color: $pinterest-color;
+                    color: $text-color-primary;
+                }
+            }
+        }
+
+    }
+
+}
+
