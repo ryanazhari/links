@@ -10,15 +10,15 @@ $dribbble-bg : rgba(228, 81, 137, .06);
 $dribbble-color : rgb(228, 81, 137);
 
 // Medium color
-$medium-bg : rgba(36, 33, 30, 0.06);
-$medium-color : rgb(36, 33, 30);
+$medium-bg : rgba(149, 103, 58, .06);
+$medium-color : rgb(149, 103, 58);
 
 // Instagram color
 $instagram-bg : rgba(182, 80, 188, .06);
 $instagram-color : rgb(182, 80, 188);
 
 // Facebook color
-$facebook-bg : rgba(60, 90, 153, .06);
+$facebook-bg : rgba(60, 90, 153, .1);
 $facebook-color : rgb(60, 90, 153);
 
 // Linkedin color
@@ -48,7 +48,7 @@ $twitter-color : rgb(0, 172, 237);
         margin: 0;
         span {
             font-size: 14px;
-            opacity: .7;
+            opacity: .9;
         }
     }
     i {

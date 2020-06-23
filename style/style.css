@@ -18,7 +18,7 @@ body .kunoleps .box .dribbble p, body .kunoleps .box .dribbble:hover p, body .ku
 
 body .kunoleps .box .dribbble p span, body .kunoleps .box .dribbble:hover p span, body .kunoleps .box .medium p span, body .kunoleps .box .medium:hover p span, body .kunoleps .box .instagram p span, body .kunoleps .box .instagram:hover p span, body .kunoleps .box .facebook p span, body .kunoleps .box .facebook:hover p span, body .kunoleps .box .linkedin p span, body .kunoleps .box .linkedin:hover p span, body .kunoleps .box .pinterest p span, body .kunoleps .box .pinterest:hover p span {
   font-size: 14px;
-  opacity: .7;
+  opacity: .9;
 }
 
 body .kunoleps .box .dribbble i, body .kunoleps .box .dribbble:hover i, body .kunoleps .box .medium i, body .kunoleps .box .medium:hover i, body .kunoleps .box .instagram i, body .kunoleps .box .instagram:hover i, body .kunoleps .box .facebook i, body .kunoleps .box .facebook:hover i, body .kunoleps .box .linkedin i, body .kunoleps .box .linkedin:hover i, body .kunoleps .box .pinterest i, body .kunoleps .box .pinterest:hover i {
@@ -85,12 +85,12 @@ body .kunoleps .box .dribbble:hover {
 }
 
 body .kunoleps .box .medium {
-  background-color: rgba(36, 33, 30, 0.06);
-  color: #24211e;
+  background-color: rgba(149, 103, 58, 0.06);
+  color: #95673a;
 }
 
 body .kunoleps .box .medium:hover {
-  background-color: #24211e;
+  background-color: #95673a;
   color: #FFF;
 }
 
@@ -105,7 +105,7 @@ body .kunoleps .box .instagram:hover {
 }
 
 body .kunoleps .box .facebook {
-  background-color: rgba(60, 90, 153, 0.06);
+  background-color: rgba(60, 90, 153, 0.1);
   color: #3c5a99;
 }
 
@@ -174,11 +174,11 @@ body .kunoleps .box .pinterest:hover {
     color: #FFF;
   }
   body .kunoleps .box .medium {
-    background-color: rgba(36, 33, 30, 0.06);
-    color: #24211e;
+    background-color: rgba(149, 103, 58, 0.06);
+    color: #95673a;
   }
   body .kunoleps .box .medium:hover {
-    background-color: #24211e;
+    background-color: #95673a;
     color: #FFF;
   }
   body .kunoleps .box .instagram {
@@ -190,7 +190,7 @@ body .kunoleps .box .pinterest:hover {
     color: #FFF;
   }
   body .kunoleps .box .facebook {
-    background-color: rgba(60, 90, 153, 0.06);
+    background-color: rgba(60, 90, 153, 0.1);
     color: #3c5a99;
   }
   body .kunoleps .box .facebook:hover {
